@@ -1,0 +1,17 @@
+{
+    "name": "gogilo/exportroutes",
+    "description": "A set of utility commands for exporting routes to various formats. e.g. csv, excel, text, json e.t.c.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ogilo\\ExportRoutes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ogilo\\ExportRoutes\\ServiceProvider"
+            ]
+        }
+    }
+}
