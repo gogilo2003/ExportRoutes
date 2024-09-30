@@ -13,7 +13,7 @@ class ExportRoutesToCsv extends Command
      *
      * @var string
      */
-    protected $signature = 'routes:csv {search? : URI to search for} {--path= : The file path to export the CSV}';
+    protected $signature = 'exportroutes:csv {search? : URI to search for} {--path= : The file path to export the CSV}';
 
     /**
      * The console command description.
